@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ClassState from './pages/ClassState';
+
+//import FunctinalState from './pages/FunctinalState';
+//import FunctinalState2 from './pages/FunctinalState2';
+//import FunctinalState3 from './pages/FunctinalState3';
+// import HideShow from './pages/HideShow';
+// import HideShow2 from './pages/HideShow2';
+//import FunctionState from './pages/FunctionState';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <ClassState/>
+     {/* <FunctinalState/> */}
+     {/* <FunctinalState2/> */}
+     {/* <FunctinalState3/> */}
+     {/* <HideShow /> */}
+     {/* <HideShow2 /> */}
+     {/* <FunctionState /> */}
+    </>
   );
 }
 
